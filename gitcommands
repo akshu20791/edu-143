@@ -1,0 +1,49 @@
+Create a folder (test1)
+
+right click and open git bash
+
+1) git init   #start the git in the folder test1
+
+2) git config --global user.name "akshat"     #configuring akshat as the user
+
+3) git config --global user.email "a@gmail.com"   #configurating a@gmail.com as email 
+
+4) git config --global user.name     (o/p : akshat)
+
+5) git config --global user.email    (o/p : a@gmail.com)'
+
+6) touch file1    #create a blank file
+
+7) ls    #list of files and folder in your working folder 
+
+8) git status   # shows the status of the git (file1 would be in red color)
+
+9) touch file2 file3 file4 file5 
+
+10) ls
+
+11) git add .    #put all the files from working directory to staging area. if u want to do it for single file use -->git add filename
+
+12) git status   #all the files would be now converted to green color which means they are tracked
+
+
+########TO CLEAR THE SCREEN press ctrl l ######################
+
+
+13) git rm --cached file3    #it will remove file3 from staging area and move back to working directory
+
+14) git status    (now you will see that file3 is now moved back to working directory(red color) and rest files are in staging area)
+
+
+15) git commit -m"first commit"    #this will put all the files from staging area to local repo ....and -m - message
+
+16) git status   (you will only see file3 in red color becuase it was in working directory) 
+
+17) git log   (gives the commit logs) 
+
+18) git log --oneline   (give the commit logs in single line) 
+
+19) git revert <<commit id>>   
+
+
+
